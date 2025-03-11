@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Website</title>
+    <!-- Lobster font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Poppins Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Bite & Bliss</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Luxury Dining, Comfort Food</h1>
+            <p>Enjoy a perfect blend of flavors, from desi delights to sizzling fast food and sweet treats. Every bite is crafted with love for a truly satisfying experience</p>
+            <a href="#" class="btn">View Menu</a>
+        </div>
+    </section>
+    
+    <!-- About -->
+    <section class="about">
+        <div class="about-content">
+            <h2>A Taste of Perfection</h2>
+            <p>
+                Savor the finest flavors, crafted with love and the freshest ingredients. A cozy ambiance, exceptional service, and unforgettable dining await you!
+            </p>
+            <a href="#" class="btn">Explore Menu</a>
+        </div>
+    </section>
+    
+    <!-- Box -->
+    <h1>Where Taste Meets Ambiance</h1>
+    <div class="container">
+        <div class="box">
+            <img src="Images/Box1.jpg" alt="box1">
+        </div>
+        <div class="box">
+            <img src="Images/Box2.jpg" alt="box2">
+        </div>
+        <div class="box">
+            <img src="Images/Box3.jpg" alt="box3">
+        </div>
+    </div>
+
+    <h1>Savor the Sweetness</h1>
+    <div class="container">
+        <div class="box">
+            <img src="Images/Box4.jpg" alt="box4">
+            <div class="text">Cupcake</div>
+        </div>
+        <div class="box">
+            <img src="Images/Box5.jpg" alt="box5">
+            <div class="text">Chocolate</div>
+        </div>
+        <div class="box">
+            <img src="Images/Box6.jpg" alt="box6">
+            <div class="text">Mango Icecream</div>
+        </div>
+    </div>
+
+    <h1>Flavors That Delight</h1>
+    <div class="container">
+        <div class="box">
+            <img src="Images/Box7.jpg" alt="box7">
+            <div class="text">Biryani</div>
+        </div>
+        <div class="box">
+            <img src="Images/Box8.jpg" alt="box8">
+            <div class="text">Golgappe</div>
+        </div>
+        <div class="box">
+            <img src="Images/Box9.jpg" alt="box9">
+            <div class="text">Noodles</div>
+        </div>
+    </div>
+
+    <h1>Indulge in Delight</h1>
+    <div class="container">
+        <div class="box">
+            <img src="Images/Box10.jpg" alt="box10">
+            <div class="text">MILK SOFTIES</div>
+        </div>
+        <div class="box">
+            <img src="Images/Box11.jpg" alt="box11">
+            <div class="text">Jelly Cake</div>
+        </div>
+        <div class="box">
+            <img src="Images/Box12.jpg" alt="box12">
+            <div class="text">Fudge</div>
+        </div>
+
+        <!-- Banner -->
+        <div class="banner">
+            <div class="banner-content">
+                <h1>Free Home Delivery</h1>
+                <p>We prioritize customer satisfaction with free home delivery, ensuring hot, fresh, and delicious food at their doorstep</p>
+                <button class="call-btn">CALL NOW</button>
+            </div>
+        </div>
+
+        <!-- Add To Cart -->
+         <h1>Our Menu</h1>
+        <div class="product-grid">
+            <div class="product">
+                <img src="Images/Box13.jpg" alt="Box13">
+                <div class="add-to-cart">Add To Cart</div>
+                <div class="product-info">
+                    <div class="product-name">kabab</div>
+                    <div class="product-price">$64</div>
+                </div>
+            </div>
+            <div class="product">
+                <span class="sale-tag">Sale</span>
+                <img src="Images/Box14.jpg" alt="Box14">
+                <div class="add-to-cart">Add To Cart</div>
+                <div class="product-info">
+                    <div class="product-name">Burger</div>
+                    <div class="product-price"><del>$52</del> $42</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Images/Box15.jpg" alt="Box15">
+                <div class="add-to-cart">Add To Cart</div>
+                <div class="product-info">
+                    <div class="product-name">Skewered Minced Meat Kebab</div>
+                    <div class="product-price">$37</div>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Images/Box16.jpg" alt="box16">
+                <div class="add-to-cart">Add To Cart</div>
+                <div class="product-info">
+                    <div class="product-name">Karahi Curry</div>
+                    <div class="product-price">$64</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-bottom">
+            © 2025 Bliss & Bites All Rights Reserved | <a href="#">Privacy Policy</a>
+        </div>
+
+    <!-- Js Code -->
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById("navLinks");
+            nav.classList.toggle("active");
+        }
+    </script>
+</body>
+</html> 
+
+
+
+
+
+
